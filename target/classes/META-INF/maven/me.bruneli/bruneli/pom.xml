@@ -5,11 +5,16 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Cucumber</name>
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
 			<version>7.9.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>7.9.0</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 </project>
